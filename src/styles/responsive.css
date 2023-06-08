@@ -1,0 +1,166 @@
+@media screen and (min-width: 650px) {
+	.app-bar{
+		grid-template-columns: 1fr auto;
+		padding: 8px 32px;
+	}
+
+	.app-bar .app-bar__brand h1 {
+      font-size: 1.5em;
+    }
+   
+    .app-bar .app-bar__menu {
+      display: none;
+    }
+   
+    .app-bar .app-bar__navigation {
+      position: static;
+      width: 100%;
+    }
+   
+    .app-bar .app-bar__navigation ul li {
+      display: inline-block;
+    }
+   
+    .app-bar .app-bar__navigation ul li a {
+      display: inline-block;
+      width: 120px;
+      text-align: center;
+      margin: 0;
+    }
+}
+
+@media screen and (min-width: 800px) {
+	.app-bar .app-bar__brand h1{
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 650px) {
+	.list_items-content {
+	  padding: 16px 32px 32px 32px;
+	}
+	.list_items-title {
+	  font-size: 18px;
+	}
+  
+	.list_items-description {
+	  font-size: 14px;
+	}
+	.restaurants__image{
+	  width: 100%;
+	  padding: 5px;
+	}
+}
+
+@media screen and (min-width: 450px){
+	.content{
+		width: 100%;
+	}
+	/* .restaurants__image,
+	.detailRestaurant {
+		width: 100%;
+		padding: 5px;
+	} */
+	.hero{
+		width: 100%;
+		background-position: cover;
+	}
+	/* .restaurant-detail__item{
+		width: 80%;
+	} */
+	.restaurants__name{
+		font-size: 2em;
+	}
+	.review{
+		font-size: 2em;
+	}
+	.restaurant-detail__foods,
+	.restaurant-detail__drinks {
+	list-style: none;
+	margin: 0 0 30px;
+	padding: 0;
+	font-size: 10px;
+	}
+	.restaurants{
+		grid-column-gap: 10px;
+		grid-row-gap: 16px;
+	}
+}
+
+@media screen and (min-width: 300px){
+	.restaurants__image {
+		width: 100%;
+		padding: 5px;
+	}
+	.hero{
+		width: 100%;
+		background-position: cover;
+	}
+	/* .restaurant-detail__item{
+		width: 50%;
+	} */
+	.restaurants__name{
+		font-size: 2em;
+	}
+	.review{
+		font-size: 2em;
+		width: 100%;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 250px){
+	.restaurants__image {
+		width: 100%;
+		padding: 5px;
+	}
+	.hero{
+		width: 100%;
+		background-position: cover;
+	}
+	/* .restaurant-detail__item{
+		 width: 50%; 
+	} */
+	.restaurants__name{
+		font-size: 2em;
+	}
+	.review{
+		font-size: 2em;
+		width: 100%;
+		align-items: center;
+	}
+}
+  
+@media screen and (min-width: 700px) {
+	.list {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  grid-column-gap: 10px;
+	  grid-row-gap: 16px;
+	}
+	.restaurant-detail__item{
+		width: 85%;
+	}
+	.restaurants{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 10px;
+		grid-row-gap: 16px;
+	}
+}
+  
+@media screen and (min-width: 900px) {
+	.list {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.hero {
+		min-width: 1000px;
+	}
+	main {
+		max-width: 1200px
+	}
+}

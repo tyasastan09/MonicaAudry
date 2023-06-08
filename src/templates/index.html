@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="theme-color" content="#DB0000"/>
+
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="./favicon.png">
+    <link rel="manifest" href="./app.webmanifest">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <title>Restaurant Website</title>
+  </head>
+  <body>
+    <a href="#content" class="skip-link">Skip to content ?</a>
+    <header>
+      <div class="app-bar">
+        <div class="app-bar__menu" id="menu">
+          <button id="hamburgerButton">☰</button>
+        </div>
+        <div class="app-bar__brand">
+          <h1>Restaurant Apps</h1>
+        </div>
+        <nav id="drawer" class="app-bar__navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#/favorite">Favorite</a></li>
+            <li>
+              <a href="https://www.instagram.com/audry.monica/">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Jumbotron -->
+    <div class="hero">
+      <div class="hero__inner">
+        <h1 class="hero__title">Restaurant Apps</h1>
+        <p class="hero__subtitle">
+          Temukan restaurant yang anda ingin kunjungi.
+        </p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <main id="content" tabindex="0">
+      <section class="content">
+        <div class="exp-content">
+          <h1>Explore Restaurant</h1>
+          <div class="list" id="exp-resto"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small>Copyright &copy; 2023 - Restaurant Apps.</small>
+      </div>
+    </footer>
+  </body>
+</html>
